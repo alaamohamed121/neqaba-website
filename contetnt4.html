@@ -1,0 +1,436 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+
+
+<!-- Mirrored from marketlii.com/faq.html by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 21 Apr 2024 07:40:05 GMT -->
+<head>
+	<meta charset="utf-8">
+	<title> المحتوي العلمي</title>
+
+	<link rel="stylesheet" href="assets/css/fontello.css" />
+	<link rel="stylesheet" href="assets/css/animation.css">
+	<link rel="stylesheet" href="assets/css/slick.css" />
+	<link rel="stylesheet" href="assets/css/grid.css" />
+	<link rel="stylesheet" href="assets/css/style.css" />
+	<link rel="stylesheet" href="assets/css/faq.css">
+	<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&amp;display=swap" rel="stylesheet">
+	<meta name="viewport" content="initial-scale=1, width=device-width" />
+	<link rel="shortcut icon" href="assets/images/favicon.png" type="image/png" title="shortcut icon" />
+	<link rel="apple-touch-icon" href="assets/images/apple-touch-icon.png">
+	<style>
+        /* الأساسيات */
+        .faq-banner {
+            margin-bottom: 50px; /* هامش أسفل البانر */
+        }
+
+        .footer {
+            margin-top: 50px; /* هامش فوق الفوتر */
+        }
+
+        .video-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+
+        .video-box {
+            width: 32%; /* تخصيص 32% لكل فيديو ليظهر 3 فيديوهات في الصف الواحد */
+            margin-bottom: 20px;
+        }
+
+        /* استجابة للشاشات الأصغر */
+        @media (max-width: 768px) {
+            .video-box {
+                width: 100%; /* كل فيديو يأخذ عرض الشاشة كامل */
+            }
+        }
+        .file-container {
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: space-around;
+          padding: 20px 0;
+      }
+
+      .file-box {
+          width: 32%; /* يظهر ثلاثة مربعات في كل صف */
+          background-color: #f4f4f4; /* لون الخلفية لكل مربع */
+          padding: 15px;
+          margin-bottom: 20px;
+          border-radius: 5px; /* تقريب الزوايا */
+          box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* إضافة ظل خفيف للمربع */
+          transition: transform 0.3s ease-in-out; /* تأثير عند التفاعل */
+          display: flex; /* استخدام Flexbox */
+          flex-direction: column; /* توجيه العناصر بشكل عمودي */
+          align-items: center; /* محاذاة العناصر أفقياً في المنتصف */
+          justify-content: center; /* محاذاة العناصر عمودياً في المنتصف */
+      }
+
+      .file-box:hover {
+          transform: translateY(-5px); /* تحرك المربع للأعلى قليلاً عند المرور بالماوس */
+      }
+
+      .file-name {
+          font-size: 16px; /* حجم الخط لاسم الملف */
+          color: #333; /* لون الخط */
+          margin-bottom: 10px; /* هامش أسفل اسم الملف */
+      }
+
+      .download-button {
+          display: block;
+          text-align: center;
+          background-color: #0056b3; /* لون خلفية زر التحميل */
+          color: white; /* لون النص داخل الزر */
+          padding: 10px 20px;
+          border-radius: 5px; /* تقريب زوايا الزر */
+          text-decoration: none; /* إزالة التسطير من النص */
+          transition: background-color 0.3s ease; /* تأثير لون الخلفية عند التفاعل */
+      }
+
+      .download-button:hover {
+          background-color: #003580; /* تغيير لون الخلفية عند المرور بالماوس */
+      }
+
+
+	</style>
+</head>
+<header id="header">
+    <div class="container-fluid dark-bg">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="top-h">
+            <div class="social">
+              <ul>
+                <li>
+                  <a target="_blank" href=""><i class="icon-facebook" title="facebook"></i></a>
+                </li>
+                <li>
+                  <a target="_blank" href=""><i class="icon-instagram-1" title="instagram"></i></a>
+                </li>
+                <li>
+                  <a target="_blank" href=""><i class="icon-twitter" title="twitter"></i></a>
+                </li>
+                <!--
+                <li>
+                  <a target="_blank" href="#wa"><i class="icon-youtube" title="youtube"></i></a>
+                </li>
+                <li>
+                  <a target="_blank" href="#ln"><i class="icon-linkedin" title="linkedin"></i></a>
+                </li>
+                -->
+              </ul>
+            </div>
+
+            <!--Login-->
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="header">
+            <!--logo-->
+            <a href="index.html" class="h-logo"><img src="assets/images/neqaba-removebg-preview.png" width="290" height="84" alt="Marketlii" title="Marketlii" class="logo" /></a>
+            <!--Navigation-->
+            <div class="menu">
+              <a href="#" class="nav-button" aria-label="menu" id="navi"></a>
+              <nav role="navigation" id="nav-main" class="nav">
+                <ul id="respMenu" class="ace-responsive-menu">
+                  <li class="menu-item"><a href="content.html">ماده الاختبارات والمقاييس</a></li>
+                  <li class="menu-item"><a href="content2.html">ماده الاداره</a></li>
+                  <li class="menu-item"><a href="contetnt3.html">ماده الاصابات</a></li>
+                  <li class="menu-item"><a href="contetnt4.html">ماده التدريب الرياضي</a></li>
+                  <li class="menu-item"><a href="contetnt5.html">ماده التشريح</a></li>
+                  <li class="menu-item"><a href="contetnt6.html">ماده التغذيه</a></li>
+                  <li class="menu-item"><a href="contetnt7.html">ماده الذكاء الاصطناعي</a></li>
+                  <li class="menu-item"><a href="contetnt8.html">ماده تنمية بشرية</a></li>
+                  <li class="menu-item"><a href="contetnt9.html">ماده علم الحركة</a></li>
+                  <li class="menu-item"><a href="contetnt10.html">ماده علم النفس</a></li>
+                  <li class="menu-item"><a href="contetnt11.html">ماده فسيولوجي</a></li>
+
+                </ul>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+	<!--Banner-->
+	<div class="faq-banner">
+		<div class="container-fluid">
+			<div class="row">
+				<img src="assets/images/faq-bg.jpg" width="1600" height="400" alt="اسئلة شائعة" />
+			</div>
+			<div class="row faq-txt">
+				<div class="col-md-12">
+					<h1>المحتوي العلمي</h1>
+					<p>نحن سعد بتقديم افضل المحتوي العلمي لك لماده التدريب الرياضي</p>
+					<!--search box-->
+					<div class="searchbox">
+						<form class="navbar-form" role="search" method="get">
+							<div class="form-group">
+								<input type="search" name="s" class="form-control search-autocomplete" placeholder="بحث" />
+							</div>
+							<button type="submit"><i class="icon-search"></i></button>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	<!--main section	-->
+
+  
+    <div class="video-container">
+      <div class="video-box">
+          <iframe src="videos/تدريب اجباري/10.mp4" width="100%" height="315" allow="autoplay"></iframe>
+      </div>
+      <div class="video-box">
+          <iframe src="videos/تدريب اجباري/14.mp4" width="100%" height="315" allow="autoplay"></iframe>
+      </div>
+      <div class="video-box">
+        <iframe src="videos/تدريب اجباري/17.mp4" width="100%" height="315" allow="autoplay"></iframe>
+    </div>
+    <div class="video-box">
+      <iframe src="videos/تدريب اجباري/18.mp4" width="100%" height="315" allow="autoplay"></iframe>
+  </div>
+  <div class="video-box">
+    <iframe src="videos/تدريب اجباري/24.mp4" width="100%" height="315" allow="autoplay"></iframe>
+</div>
+<div class="video-box">
+  <iframe src="videos/تدريب اجباري/25.mp4" width="100%" height="315" allow="autoplay"></iframe>
+</div>
+<div class="video-box">
+  <iframe src="videos/تدريب اجباري/26.mp4" width="100%" height="315" allow="autoplay"></iframe>
+</div>
+<div class="video-box">
+  <iframe src="videos/تدريب اجباري/3.mp4" width="100%" height="315" allow="autoplay"></iframe>
+</div>
+<div class="video-box">
+  <iframe src="videos/تدريب اجباري/44.mp4" width="100%" height="315" allow="autoplay"></iframe>
+</div>
+<div class="video-box">
+  <iframe src="videos/تدريب اجباري/53.mp4" width="100%" height="315" allow="autoplay"></iframe>
+</div>
+<div class="video-box">
+<iframe src="videos/تدريب اجباري/54.mp4" width="100%" height="315" allow="autoplay"></iframe>
+</div>
+<div class="video-box">
+<iframe src="videos/تدريب اجباري/55.mp4" width="100%" height="315" allow="autoplay"></iframe>
+</div>
+<div class="video-box">
+<iframe src="videos/تدريب اجباري/56.mp4" width="100%" height="315" allow="autoplay"></iframe>
+</div>
+<div class="video-box">
+<iframe src="videos/تدريب اجباري/6.mp4" width="100%" height="315" allow="autoplay"></iframe>
+</div>
+<div class="video-box">
+<iframe src="videos/تدريب اجباري/7.mp4" width="100%" height="315" allow="autoplay"></iframe>
+</div>
+<div class="video-box">
+<iframe src="videos/تدريب اجباري/8.mp4" width="100%" height="315" allow="autoplay"></iframe>
+</div>
+
+
+<div class="video-box">
+  <iframe src="videos/تدريب اجباري/14.mp4" width="100%" height="315" allow="autoplay"></iframe>
+</div>
+<div class="video-box">
+<iframe src="videos/تدريب اجباري/17.mp4" width="100%" height="315" allow="autoplay"></iframe>
+</div>
+<div class="video-box">
+<iframe src="videos/تدريب اجباري/18.mp4" width="100%" height="315" allow="autoplay"></iframe>
+</div>
+<div class="video-box">
+<iframe src="videos/تدريب اجباري/24.mp4" width="100%" height="315" allow="autoplay"></iframe>
+</div>
+<div class="video-box">
+<iframe src="videos/تدريب اجباري/25.mp4" width="100%" height="315" allow="autoplay"></iframe>
+</div>
+<div class="video-box">
+<iframe src="videos/تدريب اجباري/26.mp4" width="100%" height="315" allow="autoplay"></iframe>
+</div>
+<div class="video-box">
+<iframe src="videos/تدريب اجباري/3.mp4" width="100%" height="315" allow="autoplay"></iframe>
+</div>
+<div class="video-box">
+<iframe src="videos/تدريب اجباري/44.mp4" width="100%" height="315" allow="autoplay"></iframe>
+</div>
+<div class="video-box">
+<iframe src="videos/تدريب اجباري/53.mp4" width="100%" height="315" allow="autoplay"></iframe>
+</div>
+<div class="video-box">
+<iframe src="videos/تدريب اجباري/54.mp4" width="100%" height="315" allow="autoplay"></iframe>
+</div>
+<div class="video-box">
+<iframe src="videos/تدريب اجباري/55.mp4" width="100%" height="315" allow="autoplay"></iframe>
+</div>
+<div class="video-box">
+<iframe src="videos/تدريب اجباري/56.mp4" width="100%" height="315" allow="autoplay"></iframe>
+</div>
+<div class="video-box">
+<iframe src="videos/تدريب اجباري/6.mp4" width="100%" height="315" allow="autoplay"></iframe>
+</div>
+<div class="video-box">
+<iframe src="videos/تدريب اجباري/7.mp4" width="100%" height="315" allow="autoplay"></iframe>
+</div>
+<div class="video-box">
+<iframe src="videos/تدريب اجباري/8.mp4" width="100%" height="315" allow="autoplay"></iframe>
+</div>
+
+<div class="video-box">
+  <iframe src="videos/تدريب اختياري/2.mp4" width="100%" height="315" allow="autoplay"></iframe>
+</div>
+
+<div class="video-box">
+  <iframe src="videos/تدريب اختياري/3.mp4" width="100%" height="315" allow="autoplay"></iframe>
+</div>
+
+<div class="video-box">
+  <iframe src="videos/تدريب اختياري/4.mp4" width="100%" height="315" allow="autoplay"></iframe>
+</div>
+
+<div class="video-box">
+  <iframe src="videos/تدريب اختياري/5.mp4" width="100%" height="315" allow="autoplay"></iframe>
+</div>
+
+<div class="video-box">
+  <iframe src="videos/تدريب اختياري/6.mp4" width="100%" height="315" allow="autoplay"></iframe>
+</div>
+
+<div class="video-box">
+  <iframe src="videos/تدريب اختياري/7.mp4" width="100%" height="315" allow="autoplay"></iframe>
+</div>
+
+<div class="video-box">
+  <iframe src="videos/تدريب اختياري/8.mp4" width="100%" height="315" allow="autoplay"></iframe>
+</div>
+
+<div class="video-box">
+  <iframe src="videos/تدريب اختياري/9.mp4" width="100%" height="315" allow="autoplay"></iframe>
+</div>
+
+<div class="video-box">
+  <iframe src="videos/تدريب اختياري/10.mp4" width="100%" height="315" allow="autoplay"></iframe>
+</div>
+
+<div class="video-box">
+  <iframe src="videos/تدريب اختياري/11.mp4" width="100%" height="315" allow="autoplay"></iframe>
+</div>
+
+<div class="video-box">
+  <iframe src="videos/تدريب اختياري/12.mp4" width="100%" height="315" allow="autoplay"></iframe>
+</div>
+
+<div class="video-box">
+  <iframe src="videos/تدريب اختياري/13.mp4" width="100%" height="315" allow="autoplay"></iframe>
+</div>
+
+<div class="video-box">
+  <iframe src="videos/تدريب اختياري/14.mp4" width="100%" height="315" allow="autoplay"></iframe>
+</div>
+
+<div class="video-box">
+  <iframe src="videos/تدريب اختياري/15.mp4" width="100%" height="315" allow="autoplay"></iframe>
+</div>
+
+<div class="video-box">
+  <iframe src="videos/تدريب اختياري/16.mp4" width="100%" height="315" allow="autoplay"></iframe>
+</div>
+
+<div class="video-box">
+  <iframe src="videos/تدريب اختياري/17.mp4" width="100%" height="315" allow="autoplay"></iframe>
+</div>
+
+<div class="video-box">
+  <iframe src="videos/تدريب اختياري/18.mp4" width="100%" height="315" allow="autoplay"></iframe>
+</div>
+
+<div class="video-box">
+  <iframe src="videos/تدريب اختياري/19.mp4" width="100%" height="315" allow="autoplay"></iframe>
+</div>
+
+<div class="video-box">
+  <iframe src="videos/تدريب اختياري/20.mp4" width="100%" height="315" allow="autoplay"></iframe>
+</div>
+
+<div class="video-box">
+  <iframe src="videos/تدريب اختياري/21.mp4" width="100%" height="315" allow="autoplay"></iframe>
+</div>
+
+<div class="video-box">
+  <iframe src="videos/تدريب اختياري/22.mp4" width="100%" height="315" allow="autoplay"></iframe>
+</div>
+
+<div class="video-box">
+  <iframe src="videos/تدريب اختياري/23.mp4" width="100%" height="315" allow="autoplay"></iframe>
+</div>
+
+<div class="video-box">
+  <iframe src="videos/تدريب اختياري/24.mp4" width="100%" height="315" allow="autoplay"></iframe>
+</div>
+
+<div class="video-box">
+  <iframe src="videos/تدريب اختياري/25.mp4" width="100%" height="315" allow="autoplay"></iframe>
+</div>
+
+<div class="video-box">
+  <iframe src="videos/تدريب اختياري/26.mp4" width="100%" height="315" allow="autoplay"></iframe>
+</div>
+
+<div class="video-box">
+  <iframe src="videos/تدريب اختياري/27.mp4" width="100%" height="315" allow="autoplay"></iframe>
+</div>
+
+<div class="video-box">
+  <iframe src="videos/تدريب اختياري/28.mp4" width="100%" height="315" allow="autoplay"></iframe>
+</div>
+
+
+
+
+    </div>
+
+    <div class="file-container">
+      <div class="file-box">
+          <span class="file-name"> محتوي التدريب الرياضي  </span>
+          <a href="doc/التدريب الرياضي/محتوى التدريب الرياضي تعديل 08.04.2024.pdf" download="اسم الملف الأول.pdf" class="download-button">تحميل</a>
+      </div>
+
+      <div class="file-box">
+        <span class="file-name"> ملخص التدريب الرياضي </span>
+        <a href="doc/التدريب الرياضي/مختصر مادة التدريب الرياضي.pdf" download="اسم الملف الأول.pdf" class="download-button">تحميل</a>
+      </div>
+
+    </div>
+
+
+	<footer class="footer">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-md-6">
+					<ul class="quick-links">
+						<li><a href="index.html">الرئيسية</a></li>
+						<li><a href="#">المدونة</a></li>
+						<li><a href="privacy-policy.html">سياسة الخصوصية</a></li>
+						<li><a href="faq.html">اسئلة شائعة</a></li>
+					</ul>
+				</div>
+				<div class="col-md-6">
+					© 2024 جميع الحقوق محفوظة <a href="index.html">NeQaBa</a> </div>
+			</div>
+		</div>
+	</footer>
+
+
+	<script src="assets/js/jquery.js" charset="utf-8"></script>
+	<script src="assets/js/slick.js" charset="utf-8"></script>
+	<script src="assets/js/script.js" charset="utf-8"></script>
+</body>
+
+
+</html>

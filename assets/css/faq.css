@@ -1,0 +1,58 @@
+@charset "utf-8";
+/* FAQ */
+.faq-banner{position: relative;text-shadow: 1px 1px 3px rgba(0,0,0,0.3)}
+.faq-banner img{width:100%;height:350px;object-fit: cover;margin-top:40px;float: left;}
+.faq-txt{position:absolute;z-index: 2;color:#FFFFFF;top:calc(50% + 40px);left:0;width:calc(100% + 30px);text-align: center;transform: translateY(-50%)}
+.faq-txt h1, .faq-txt p{margin:0;padding:0}
+/* Search box */
+.faq-banner .searchbox{display:block;position:relative;width:80%;padding:0;margin:30px auto}
+.faq-banner .searchbox form{position:relative;display:block;margin:0;padding:0;width:100%}
+.faq-banner .searchbox form input[type=search]{background-color:rgba(255,255,255,0.5);width:100%;height:35px;border:0;border-radius:50px;font-size:16px;line-height:35px;color:#131326;transition:all .3s ease-in-out;text-decoration:none;text-transform:none;font-style:normal;padding:0 20px;box-shadow:none;outline:0;float:right}
+.faq-banner .searchbox.searchbox form button{position:absolute;top:0;left:10px;z-index:3;line-height:35px;background:transparent;border:none;cursor:pointer}
+.faq-banner .searchbox .icon-search{color:#141A32}
+
+/* Accordion
+================================================== */
+.acc {margin: 0 auto;max-width: 1000px;}
+.acc__card {margin: 2em; position: relative;}
+.acc__title { background: #fff; box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); color: #1D1D39; cursor: pointer;
+  display: block; padding: 1em 1.5em; position: relative; text-align: right;}
+.acc__title::after { width: 8px; height: 8px; border-right: 2px solid #E44233; border-bottom: 2px solid #E44233;  position: absolute; left: 20px; content: " "; top: 50%; transform: rotate(-45deg) translateY(-50%);
+  transition: all 0.2s ease-in-out;}
+.acc__title.active::after { transform: rotate(45deg) translateY(-50%); transition: all 0.2s ease-in-out;}
+.acc__panel { background: #fff; color: #212121;  display: none; margin: 0; padding: 2em; text-align: right;}
+
+.privacy-policy{max-width:1000px;margin:0 auto}
+@media only screen and (min-width:1200px){
+.faq-banner img{height:400px}
+.faq-banner .searchbox{width:30%}
+	}
+@charset "utf-8";
+/* FAQ */
+.faq-banner{position: relative;text-shadow: 1px 1px 3px rgba(0,0,0,0.3)}
+.faq-banner img{width:100%;height:350px;object-fit: cover;margin-top:40px;float: left;}
+.faq-txt{position:absolute;z-index: 2;color:#FFFFFF;top:calc(50% + 40px);right:15px;width:100%;text-align: center;transform: translateY(-50%)}
+.faq-txt h1, .faq-txt p{margin:0;padding:0}
+/* Search box */
+.faq-banner .searchbox{display:block;position:relative;width:80%;padding:0;margin:30px auto}
+.faq-banner .searchbox form{position:relative;display:block;margin:0;padding:0;width:100%}
+.faq-banner .searchbox form input[type=search]{background-color:rgba(255,255,255,0.5);width:100%;height:35px;border:0;border-radius:50px;font-size:16px;line-height:35px;color:#131326;transition:all .3s ease-in-out;text-decoration:none;text-transform:none;font-style:normal;padding:0 20px;box-shadow:none;outline:0;float:right}
+.faq-banner .searchbox.searchbox form button{position:absolute;top:0;left:10px;z-index:3;line-height:35px;background:transparent;border:none;cursor:pointer}
+.faq-banner .searchbox .icon-search{color:#141A32}
+
+/* Accordion
+================================================== */
+.acc {margin: 0 auto;max-width: 1000px;}
+.acc__card {margin: 2em; position: relative;}
+.acc__title { background: #fff; box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); color: #1D1D39; cursor: pointer;
+  display: block; padding: 1em 1.5em; position: relative; text-align: right;}
+.acc__title::after { width: 8px; height: 8px; border-right: 2px solid #E44233; border-bottom: 2px solid #E44233;  position: absolute; left: 20px; content: " "; top: 50%; transform: rotate(-45deg) translateY(-50%);
+  transition: all 0.2s ease-in-out;}
+.acc__title.active::after { transform: rotate(45deg) translateY(-50%); transition: all 0.2s ease-in-out;}
+.acc__panel { background: #fff; color: #212121;  display: none; margin: 0; padding: 2em; text-align: right;}
+
+.privacy-policy{max-width:1000px;margin:0 auto}
+@media only screen and (min-width:1200px){
+.faq-banner img{height:400px}
+.faq-banner .searchbox{width:30%}
+	}
